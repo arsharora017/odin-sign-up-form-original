@@ -4,8 +4,104 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign Up</title>
+    <title>Travelgo - Sign Up</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="main-container">
+      <div class="image-container">
+        <div class="logo">
+          <img src="logo.png" alt="sun set scene through airplane window" />
+        </div>
+      </div>
+      <!-- form side-->
+      <div class="form-container">
+        <div class="page-description-wrapper left">
+          <!-- page description -->
+          <p class="page-description-child1">
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams.
+            <br />
+            Sign up <em>now</em> to get started.
+          </p>
+          <p class="page-description-child2">You <em>know</em> you want to.</p>
+        </div>
+        <!-- form structure -->
+
+        <form action="#">
+          <div class="form-wrapper">
+            <p class="form-title">Let's do this!</p>
+
+            <div class="input">
+              <label for="first_name">FIRST NAME</label>
+              <input
+                type="text"
+                id="first_name"
+                placeholder="First Name"
+                name="first_name"
+                required
+              />
+            </div>
+            <div class="input">
+              <label for="last_name">LAST NAME</label>
+              <input
+                type="text"
+                id="last_name"
+                placeholder="Last Name"
+                name="last_name"
+                required
+              />
+            </div>
+            <div class="input">
+              <label for="email">EMAIL</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Email"
+                name="email"
+                required
+              />
+            </div>
+            <div class="input">
+              <label for="phn_num">PHONE NUMBER</label>
+              <input
+                type="text"
+                id="phn_num"
+                placeholder="Phone Number"
+                name="phn_num"
+                required
+              />
+            </div>
+            <div class="input">
+              <label for="pwd">PASSWORD</label>
+              <input
+                type="password"
+                id="pwd"
+                placeholder="Password"
+                name="pwd"
+                class="error"
+                required
+              />
+            </div>
+            <div class="input">
+              <label for="confirm_pwd">CONFIRM PASSWORD</label>
+              <input
+                type="password"
+                id="confirm_pwd"
+                placeholder="Confirm"
+                name="confirm_pwd"
+                class="error"
+                required
+              />
+              <span id="message"></span>
+            </div>
+          </div>
+          <div class="button left">
+            <button type="submit">Create Account</button>
+          </div>
+        </form>
+        <p class="log-in left">Already have account? <a href="#">Log In</a></p>
+      </div>
+    </div>
+  </body>
 </html>
