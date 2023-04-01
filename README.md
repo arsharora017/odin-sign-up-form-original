@@ -1,1 +1,1 @@
-# odin-sign-up-form-orignal
+# odin-sign-up-form-original
