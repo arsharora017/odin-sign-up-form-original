@@ -152,13 +152,17 @@ form {
   width: 100%;
 }
 
-.input {
+.input-container {
   display: flex;
   flex-flow: column wrap;
   width: 40%;
   /* font-size: 0.7rem; */
   opacity: 70%;
   font-weight: 500;
+}
+
+.error {
+  display: none;
 }
 
 label {
@@ -220,4 +224,25 @@ a {
   text-decoration: none;
   color: #b36e06fc;
   font-weight: 700;
+}
+
+.error {
+  /* display: flex; */
+  align-items: center;
+  margin-top: 6px;
+  color: #d93025;
+  font-size: 13px;
+}
+
+.error .error-icon {
+  margin-right: 6px;
+  font-size: 15px;
+}
+
+.invalid input {
+  border-color: #d93025;
+}
+
+.invalid .error {
+  display: flex;
 }
